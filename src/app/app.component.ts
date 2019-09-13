@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+  dashboardPermissionChart=[];
+  data={};
+  constructor(
+   
+  ) {
+
+   this.dashboardPermissionChart=[{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'},{id:1,name:'Suchin'}]
+  }
+  ngOnInit() { }
 }
